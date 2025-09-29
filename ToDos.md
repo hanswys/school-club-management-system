@@ -1,8 +1,10 @@
 To-Dos:
-[ ] Integrate DTOs 
-[ ] Integrate Unit Testing
-[ ] Integrate Integration Testing 
-[ ] Integrate API Testing
-[ ] Add Swagger/OpenAPI for interactive API documentation.
+[ x ] Integrate Unit Testing
+[ x ] Integrate Integration Testing 
+[ x ] Integrate Systems Testing
 [ ] Logging 
+
+
+For later:
+[ ] DTOs
 

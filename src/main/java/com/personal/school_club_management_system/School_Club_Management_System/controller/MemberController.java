@@ -3,6 +3,8 @@ package com.personal.school_club_management_system.School_Club_Management_System
 
 import com.personal.school_club_management_system.School_Club_Management_System.model.Member;
 import com.personal.school_club_management_system.School_Club_Management_System.service.MemberService;
+import com.personal.school_club_management_system.School_Club_Management_System.service.ClubService;
+
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -40,4 +42,9 @@ public class MemberController {
     public void delete(@PathVariable Long id) {
         memberService.deleteById(id);
     }
+
+//    @PostMapping("/api/clubs/{clubId}/members")
+//    public Member addMember(@PathVariable Long clubId, @RequestBody Member member) {
+//        return clubService.addMember(clubId, member);
+//    }
 }
